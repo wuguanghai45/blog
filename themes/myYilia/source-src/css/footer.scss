@@ -12,8 +12,14 @@
 	}
 }
 .footer-left{
+  float: initial;
   float: left;
 }
 .footer-right{
+  float: initial;
   float: right;
+}
+
+#container .visit {
+  margin-top: 1em;
 }

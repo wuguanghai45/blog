@@ -115,6 +115,11 @@ smart_menu:
   friends: '友链'
   aboutme: '关于我'
 
+visit_counter:
+  on: true
+  site_visit: 到访数
+  page_visit: 本页阅读量
+
 friends:
   布宝: https://bubao.github.io/
 
