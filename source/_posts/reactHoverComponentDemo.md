@@ -5,7 +5,7 @@ tags:
 - react
 ---
 
-react 封装一个简单控件， 功能是更改鼠标hover的Style或者Class
+react 封装一个简单控件， 功能是更改鼠标hover的style或者class
 
 ```javascript
 import React, { Component } from 'react';
