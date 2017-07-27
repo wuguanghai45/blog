@@ -84,14 +84,14 @@ changyan_appid: false
 changyan_conf: false
 
 #4、Disqus 在hexo根目录的config里也有disqus_shortname字段，优先使用yilia的
-disqus: false
+disqus: beifengchuihan
 
-gitment:
-  on: true
-  owner: wuguanghai45
-  repo: wuguanghai45.github.io
-  client_id: 2da3e069ca04e5705ba8
-  client_secret: e677c619ade0c0d0c042a05a18131232c032ad17
+#gitment:
+  #on: true
+  #owner: wuguanghai45
+  #repo: wuguanghai45.github.i[跟注册名称有关]o
+  #client_id: 2da3e069ca04e5705ba8
+  #client_secret: e677c619ade0c0d0c042a05a18131232c032ad17
 
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
