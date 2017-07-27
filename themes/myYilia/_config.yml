@@ -84,7 +84,7 @@ changyan_appid: false
 changyan_conf: false
 
 #4、Disqus 在hexo根目录的config里也有disqus_shortname字段，优先使用yilia的
-disqus: beifengchuihan
+disqus: https-wuguanghai45-github-io
 
 #gitment:
   #on: true
