@@ -2,7 +2,7 @@
 title: 解决 DTraceProviderBindings 构建错误
 date: 2017-07-26 20:19:50
 tags:
-- hexo
+- Hexo
 ---
 每次运行的时候都会抛错虽然不影响使用但很烦心
 ```

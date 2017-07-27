@@ -2,7 +2,7 @@
 title: reactNative 相册分组的实现
 date: 2017-07-20 22:58:06
 tags:
-- react-native
+- react native
 - react
 - 相册
 ---

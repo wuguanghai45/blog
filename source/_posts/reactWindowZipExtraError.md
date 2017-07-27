@@ -2,7 +2,7 @@
 title: react-native run-android Exception in thread “main” java.util.zip.ZipException
 date: 2017-07-22 13:48:56
 tags:
-- react-native
+- react native
 ---
 
 抛解压错误， 是由于安装环境的时候下载了失败的压缩包造成
