@@ -8,7 +8,7 @@ function init() {
     }).then(function(json) {
       if(json.status === 0) {
         let cityName = json.content.address_detail.city;
-        fetch(`http://106.14.124.152:3030/?cityname=${cityName}`, {
+        fetch(`//106.14.124.152:3031/?cityname=${cityName}`, {
           header: {
             "Access-Control-Allow-Origin": "*",
           },

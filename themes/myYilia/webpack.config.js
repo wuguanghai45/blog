@@ -22,7 +22,7 @@ module.exports = {
   output: {
     path: "./source",
     publicPath: "./",
-    filename: "[name].[chunkhash:6].js"
+    filename: "[name].js"
   },
   module: {
     loaders: [{
@@ -56,7 +56,7 @@ module.exports = {
     return [autoprefixer];
   },
   plugins: [
-    new ExtractTextPlugin('[name].[chunkhash:6].css'),
+    new ExtractTextPlugin('[name].css'),
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': '"production"'
     }),
