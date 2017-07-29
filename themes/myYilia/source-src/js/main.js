@@ -9,8 +9,11 @@ import Aside from './aside'
 
 import {addLoadEvent} from './util'
 
+import weather from "./weather";
+
 addLoadEvent(function() {
 	Share.init()
 	Viewer.init()
-	Aside.init()
+  Aside.init()
+  weather.init()
 })

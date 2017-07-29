@@ -6,3 +6,6 @@ node_modules/
 public/
 .deploy*/
 themes/myYilia/source
+themes/myYilia/layout/_partial/css.ejs
+themes/myYilia/layout/_partial/left-col.ejs
+themes/myYilia/layout/_partial/script.ejs
