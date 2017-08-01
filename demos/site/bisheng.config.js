@@ -7,7 +7,7 @@ module.exports = {
     components: './components',
     docs: './docs',
   },
-  output: "../public/demos",
+  output: "../public",
   theme: './site/theme',
   htmlTemplate: './site/theme/static/template.html',
   themeConfig: {
@@ -28,7 +28,7 @@ module.exports = {
   },
   filePathMapper(filePath) {
     if (filePath === '/index.html') {
-      return ['/index.html', '/index-cn.html'];
+      return [];
     }
     if (filePath.endsWith('/index.html')) {
       return [filePath, filePath.replace(/\/index\.html$/, '-cn/index.html')];

@@ -59,26 +59,11 @@ module.exports = {
       path: 'index-cn',
       component: homeTmpl,
     }, {
-      path: 'docs/pattern/:children',
-      component: contentTmpl,
-    }, {
       path: 'docs/react/:children',
-      component: contentTmpl,
-    }, {
-      path: 'changelog',
-      component: contentTmpl,
-    }, {
-      path: 'changelog-cn',
       component: contentTmpl,
     }, {
       path: 'components/:children/',
       component: contentTmpl,
-    }, {
-      path: 'docs/spec/:children',
-      component: contentTmpl,
-    }, {
-      path: 'docs/resource/:children',
-      component: contentTmpl,
-    }],
+    }, ],
   },
 };
