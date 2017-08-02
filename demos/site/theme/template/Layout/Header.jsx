@@ -136,9 +136,9 @@ export default class Header extends React.Component {
       </Button>,
       <Menu mode={menuMode} selectedKeys={[activeMenuItem]} id="nav" key="nav">
         <Menu.Item key="home">
-          <Link to={utils.getLocalizedPathname('/', isZhCN)}>
+          <a href="/">
             <FormattedMessage id="app.header.menu.home" />
-          </Link>
+          </a>
         </Menu.Item>
         <Menu.Item key="docs/react">
           <Link to={utils.getLocalizedPathname('/docs/react/introduce', isZhCN)}>

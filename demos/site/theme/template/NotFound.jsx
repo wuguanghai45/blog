@@ -9,7 +9,7 @@ export default function NotFound({ location }) {
         <h1>404</h1>
         <p>
           你要找的页面不存在
-          <Link to={utils.getLocalizedPathname('/', utils.isZhCN(location.pathname))}>返回首页</Link>
+          <a href="/">返回主页</a>
         </p>
       </section>
       <style
