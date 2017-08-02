@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "bisheng start -c ./site/bisheng.config.js --no-livereload",
+    "start": "bisheng start -c ./site/bisheng.config.dev.js --no-livereload",
     "site": "bisheng build --ssr -c ./site/bisheng.config.js",
     "deploy": "antd-tools run clean && npm run site && bisheng gh-pages --push-only"
   },
