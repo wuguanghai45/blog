@@ -168,9 +168,9 @@ export default class Header extends React.Component {
         </Popover> : null}
         <Row>
           <Col lg={4} md={5} sm={24} xs={24}>
-            <Link to={utils.getLocalizedPathname('/', isZhCN)} id="logo">
+            <a href="/">
               <span>北风吹寒的个人页面</span>
-            </Link>
+            </a>
           </Col>
           <Col lg={20} md={19} sm={0} xs={0}>
             <div id="search-box">
