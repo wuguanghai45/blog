@@ -60,6 +60,11 @@ module.exports = {
       },
     ]);
 
+    //config.babel.plugins.push([
+      //require.resolve('babel-plugin-import'),
+      //{ libraryName: "antd", style: "css" },
+    //]);
+
     config.plugins.push(new CSSSplitWebpackPlugin({ size: 4000 }));
 
     return config;
