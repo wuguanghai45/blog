@@ -36,7 +36,7 @@ class TimeShow extends Component {
   }
 
   bindTimeInterval = () => {
-    setInterval(()=> {
+    return setInterval(()=> {
       this.setState({
         timeString: this.getTimeString()
       });
