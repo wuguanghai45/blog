@@ -7,7 +7,7 @@ title:
 
 ## zh-CN
 
-一个基础demo 鼠标悬浮显示红色， 离开显示蓝色
+一个时间运行demo
 
 ## en-US
 
