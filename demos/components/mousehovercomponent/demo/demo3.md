@@ -8,6 +8,7 @@ title:
 ## zh-CN
 
 一个3d hover 网上找的效果写成React
+效果来自 https://zhuanlan.zhihu.com/p/24177270
 
 ## en-US
 

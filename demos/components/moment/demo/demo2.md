@@ -8,6 +8,7 @@ title:
 ## zh-CN
 
 一个时钟运行demo
+原文链接 https://segmentfault.com/a/1190000006099464
 
 ## en-US
 
