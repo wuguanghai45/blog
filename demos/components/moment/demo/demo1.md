@@ -65,7 +65,7 @@ class TimeShow extends Component {
 
 class App extends Component {
   render() {
-    return <TimeShow style={{color: "blue"}} />;
+    return <TimeShow />;
   }
 }
 
