@@ -155,7 +155,6 @@ export default class Demo extends React.Component {
             <a href={`#${meta.id}`} ref={this.saveAnchor}>
               {localizedTitle}
             </a>
-            <EditButton title={<FormattedMessage id="app.content.edit-page" />} filename={meta.filename} />
           </div>
           {introChildren}
           <Icon type="down-circle-o" title="Show Code" className="collapse" onClick={this.handleCodeExapnd} />
